@@ -1,0 +1,50 @@
+{
+  "default": {
+    "availability_selectors": [
+      ".availability",
+      ".stock-status",
+      ".product-availability",
+      "#availability",
+      "[data-stock-status]"
+    ],
+    "price_selectors": [
+      ".price",
+      ".product-price",
+      "[data-price]",
+      ".current-price",
+      "#product-price"
+    ],
+    "out_of_stock_texts": [
+      "out of stock",
+      "sold out",
+      "esaurito",
+      "non disponibile",
+      "terminato"
+    ],
+    "in_stock_texts": [
+      "add to cart",
+      "buy now",
+      "aggiungi al carrello",
+      "acquista ora",
+      "disponibile"
+    ]
+  },
+  "matcha.com": {
+    "availability_selectors": [
+      ".product-single__availability",
+      ".product__availability"
+    ],
+    "price_selectors": [
+      ".product-single__price",
+      ".price-item--regular"
+    ],
+    "out_of_stock_texts": [
+      "sold out",
+      "out of stock"
+    ],
+    "in_stock_texts": [
+      "add to cart",
+      "buy it now"
+    ]
+  }
+}
